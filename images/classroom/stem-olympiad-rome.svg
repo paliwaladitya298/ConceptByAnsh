@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142B45"/>
+      <stop offset="100%" stop-color="#0c1a2b"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE259"/>
+      <stop offset="100%" stop-color="#FFA751"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E6A15C"/>
+      <stop offset="100%" stop-color="#D4863A"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+  <rect width="800" height="600" fill="url(#grid)"/>
+  
+  <!-- Glowing circle background -->
+  <circle cx="400" cy="270" r="160" fill="#1e3d61" opacity="0.3"/>
+  
+  <!-- Trophy / Laurel Wreath -->
+  <g transform="translate(400, 240)">
+    <!-- Laurel left -->
+    <path d="M -90,40 Q -120,-30 -80,-90 Q -65,-50 -60,20" fill="none" stroke="#E6A15C" stroke-width="4" stroke-linecap="round"/>
+    <!-- Laurel leaves left -->
+    <ellipse cx="-95" cy="10" rx="10" ry="5" transform="rotate(-30 -95 10)" fill="#E6A15C" opacity="0.8"/>
+    <ellipse cx="-100" cy="-30" rx="10" ry="5" transform="rotate(-50 -100 -30)" fill="#E6A15C" opacity="0.8"/>
+    <ellipse cx="-85" cy="-70" rx="10" ry="5" transform="rotate(-70 -85 -70)" fill="#E6A15C" opacity="0.8"/>
+    
+    <!-- Laurel right -->
+    <path d="M 90,40 Q 120,-30 80,-90 Q 65,-50 60,20" fill="none" stroke="#E6A15C" stroke-width="4" stroke-linecap="round"/>
+    <!-- Laurel leaves right -->
+    <ellipse cx="95" cy="10" rx="10" ry="5" transform="rotate(30 95 10)" fill="#E6A15C" opacity="0.8"/>
+    <ellipse cx="100" cy="-30" rx="10" ry="5" transform="rotate(50 100 -30)" fill="#E6A15C" opacity="0.8"/>
+    <ellipse cx="85" cy="-70" rx="10" ry="5" transform="rotate(70 85 -70)" fill="#E6A15C" opacity="0.8"/>
+
+    <!-- Trophy Cup -->
+    <path d="M -50,-80 L 50,-80 L 40,0 C 35,45 -35,45 -40,0 Z" fill="url(#goldGrad)"/>
+    <path d="M -15,45 L 15,45 L 20,80 L -20,80 Z" fill="#E6A15C"/>
+    <rect x="-45" y="80" width="90" height="20" rx="4" fill="url(#goldGrad)"/>
+    <!-- Handles -->
+    <path d="M -45,-60 C -75,-60 -75,-20 -40,-10" fill="none" stroke="url(#goldGrad)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 45,-60 C 75,-60 75,-20 40,-10" fill="none" stroke="url(#goldGrad)" stroke-width="8" stroke-linecap="round"/>
+    <!-- Star on cup -->
+    <polygon points="0,-45 5,-32 18,-32 8,-23 12,-10 0,-18 -12,-10 -8,-23 -18,-32 -5,-32" fill="#142B45"/>
+  </g>
+
+  <!-- Ribbons / Badges -->
+  <rect x="250" y="400" width="300" height="42" rx="21" fill="rgba(230, 161, 92, 0.15)" stroke="#E6A15C" stroke-width="1.5"/>
+  <text x="400" y="427" font-family="'Poppins', sans-serif" font-size="16" font-weight="600" fill="#E6A15C" text-anchor="middle" letter-spacing="1.5">
+    INTERNATIONAL STEM OLYMPIAD
+  </text>
+  
+  <text x="400" y="480" font-family="'Playfair Display', serif" font-size="28" font-weight="700" fill="#F8F7F3" text-anchor="middle">
+    Grand Final in Rome – 1st Rank
+  </text>
+  <text x="400" y="515" font-family="'Poppins', sans-serif" font-size="16" fill="#DCEAF5" text-anchor="middle">
+    Mentored Student Won Gold in Science &amp; Bronze in Math
+  </text>
+</svg>

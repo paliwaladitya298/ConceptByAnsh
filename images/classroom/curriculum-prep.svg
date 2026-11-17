@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="currBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142B45"/>
+      <stop offset="100%" stop-color="#102133"/>
+    </linearGradient>
+    <pattern id="grid3" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#currBg)"/>
+  <rect width="800" height="600" fill="url(#grid3)"/>
+  
+  <!-- Central Icon Group: Book + Graduation Cap + Global Network -->
+  <g transform="translate(400, 230)">
+    <circle cx="0" cy="0" r="130" fill="#1d3857" opacity="0.4"/>
+    
+    <!-- Open Book -->
+    <path d="M -80,40 Q -40,30 0,40 Q 40,30 80,40 L 80,-40 Q 40,-50 0,-40 Q -40,-50 -80,-40 Z" fill="#DCEAF5" opacity="0.95"/>
+    <path d="M 0,-40 L 0,40" stroke="#142B45" stroke-width="3"/>
+    
+    <!-- Spine lines -->
+    <path d="M -65,-20 Q -35,-28 -15,-20" stroke="#142B45" stroke-width="2.5" fill="none" opacity="0.5"/>
+    <path d="M -65,-5 Q -35,-13 -15,-5" stroke="#142B45" stroke-width="2.5" fill="none" opacity="0.5"/>
+    <path d="M -65,10 Q -35,2 -15,10" stroke="#142B45" stroke-width="2.5" fill="none" opacity="0.5"/>
+
+    <path d="M 65,-20 Q 35,-28 15,-20" stroke="#142B45" stroke-width="2.5" fill="none" opacity="0.5"/>
+    <path d="M 65,-5 Q 35,-13 15,-5" stroke="#142B45" stroke-width="2.5" fill="none" opacity="0.5"/>
+    <path d="M 65,10 Q 35,2 15,10" stroke="#142B45" stroke-width="2.5" fill="none" opacity="0.5"/>
+
+    <!-- Mortarboard above -->
+    <polygon points="0,-95 55,-72 0,-50 -55,-72" fill="#E6A15C"/>
+    <rect x="-24" y="-62" width="48" height="15" rx="3" fill="#D4863A"/>
+    <path d="M 38,-65 L 42,-45" stroke="#FFE259" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="42" cy="-42" r="3" fill="#FFE259"/>
+  </g>
+
+  <!-- Tag -->
+  <rect x="220" y="390" width="360" height="42" rx="21" fill="rgba(230, 161, 92, 0.15)" stroke="#E6A15C" stroke-width="1.5"/>
+  <text x="400" y="417" font-family="'Poppins', sans-serif" font-size="15" font-weight="600" fill="#E6A15C" text-anchor="middle" letter-spacing="1.5">
+    MULTI-CURRICULUM MENTORING
+  </text>
+  
+  <text x="400" y="475" font-family="'Playfair Display', serif" font-size="28" font-weight="700" fill="#F8F7F3" text-anchor="middle">
+    IB • Cambridge • IGCSE • CBSE • State
+  </text>
+  <text x="400" y="512" font-family="'Poppins', sans-serif" font-size="16" fill="#DCEAF5" text-anchor="middle">
+    Competitive Examination Strategy for JEE &amp; NEET
+  </text>
+</svg>
